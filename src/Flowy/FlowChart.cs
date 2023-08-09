@@ -5,6 +5,6 @@ namespace Flowy;
 
 public sealed class FlowChart
 {
-    public static IFlowChartBuilder CreateBuilder()
+    public static IStartNodeBuilder CreateBuilder()
         => new FlowChartBuilder();
 }

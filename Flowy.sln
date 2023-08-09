@@ -5,6 +5,14 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flowy", "src\Flowy\Flowy.csproj", "{52A6F5CC-E61B-47CA-BD71-D17A16890A4E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7669AB7D-E016-4B39-A547-203AF33F28CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D5C6D12B-4138-4BF8-999C-DBC3BF2497D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flowy.UnitTests", "test\Flowy.UnitTests\Flowy.UnitTests.csproj", "{681F4178-F772-4FF5-A72D-1E50FC02A412}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{CF63B007-3C6E-44D4-9B35-3375FE2BC87E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +23,19 @@ Global
 		{52A6F5CC-E61B-47CA-BD71-D17A16890A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A6F5CC-E61B-47CA-BD71-D17A16890A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A6F5CC-E61B-47CA-BD71-D17A16890A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681F4178-F772-4FF5-A72D-1E50FC02A412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681F4178-F772-4FF5-A72D-1E50FC02A412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681F4178-F772-4FF5-A72D-1E50FC02A412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681F4178-F772-4FF5-A72D-1E50FC02A412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52A6F5CC-E61B-47CA-BD71-D17A16890A4E} = {7669AB7D-E016-4B39-A547-203AF33F28CA}
+		{681F4178-F772-4FF5-A72D-1E50FC02A412} = {D5C6D12B-4138-4BF8-999C-DBC3BF2497D6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {599E2593-1F35-4694-85FD-34CC194A3215}
 	EndGlobalSection
 EndGlobal
